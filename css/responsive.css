@@ -1,0 +1,28 @@
+/* lg */ 
+@media (min-width: 1200px) {
+ 
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  #portfolio .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+  .portfolio-item, 
+  #recent-works .col-xs-12.col-sm-4.col-md-3{
+    padding:0 15px;
+  }
+}
